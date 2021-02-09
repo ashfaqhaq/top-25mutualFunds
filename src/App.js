@@ -36,7 +36,7 @@ function App() {
   // console.log("data",data);
   return (
     <div className="App">
-      {error?<p>An error occured</p>:null}
+      {error?<p>An error occured, please refresh the page once if required.</p>:null}
       {isLoading? <header>
        <img src ={svg} alt="loading" width="170px" height="300px"/>
         <h1>Loading</h1>
